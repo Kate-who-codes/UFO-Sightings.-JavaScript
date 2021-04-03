@@ -58,7 +58,7 @@ if (slectedShape) {
 }   
 
 // Display the filtered dataset
-filteredDta.forEach((report) => {
+filteredData.forEach((report) => {
     var row = tbody.append('tr');
 
     Object.entries(report).forEach(([key, value]) => {
