@@ -1,15 +1,14 @@
 // Starter Code
-console.log("fff")
 
 var tableData = data;
 var tbody  = d3.select("tbody");
-// console.log(tableData);
+ console.log(tableData);
 // Display the entire dataset as default
 tableData.forEach((report) => {
     console.log(report);
     var row = tbody.append('tr');
 
-    Object.defineProperties(report).forEach(([key, value])=> {
+    Object.entries(report).forEach(([key, value])=> {
         console.log(key, value);
         var cell = row.append('td').text(report);
         cell.text(value);
@@ -20,8 +19,7 @@ tableData.forEach((report) => {
 var submit = d3.select("#filter-btn");
 
 //Click event of datetime filter
-button.on("click", function(event){
-     d3.select("tbody").html("");
+button on click="myFunction()";
      d3.event.preventDefault();
 //Get the value property of the input element
 var dateTime = d3.select("#datetime").property("value");
