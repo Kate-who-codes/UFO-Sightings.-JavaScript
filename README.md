@@ -8,8 +8,11 @@ The Basic site allows the user to enter a date in the date field and filter the 
 
 The Advanced site allows more filters for the user including Date, City, State, Country, and Shape. The user can enter one or any number of these filters to return the filtered table displayed on the page.
 
+
+
 ## Personal comments on working on the project:
 While working on the assignment and clearing the code I faced the problem that was not resolved even with the help of educational support team. Data was not filtering  though the code and links in it seem to be fine. I seek the help of my Instructor, TA and Tutor and we are still figuring out what's causing the problem.
+
 
 
 
@@ -38,6 +41,8 @@ Steps &	Requirements:
 09	  - country;
 
 10		- shape
+
+
 
 
 
