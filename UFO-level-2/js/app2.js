@@ -10,7 +10,7 @@ tableData.forEach((report) => {
     console.log(report);
     var row = tbody.append('tr');
 
-    Object.entires(report).forEach(([key, value]) => {
+    Object.entries(report).forEach(([key, value]) => {
         console.log(report);
         var cell = tbody.append('td');
         cell.text(value);   
