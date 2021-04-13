@@ -24,13 +24,13 @@ var clickHandler = d3.select("#filter-btn");
 clickHandler.on("click", function() {
   
 // Remove existing table
-d3.slect("tbody").html("");
+d3.select("tbody").html("");
 
 // Prevent page from refreshing
-d3.eventpreventDefault();
+d3.event.preventDefault();
 
 //Get the value property of the input elements and set all text to lowercase
-var dateTime = d3.select("#dateTime").property("value");
+var dateTime = d3.select("#datetime").property("value");
 
 var selectedCountry = d3.select("#country").property("value").toLowerCase();
 
@@ -48,14 +48,19 @@ if (dateTime) {
     filteredData = filteredData.filter(record => record.datetime === dateTime);
 }
 if (selectedCountry) {
-    filteredData = filtredData.filter(record => record.country === selectedCountry);
+    filteredData = filteredData.filter(record => record.country === selectedCountry);
 }
 if (selectedCity) {
     filteredData = filteredData.filter(record => record.city === selectedCity);
+
 }
-if (slectedShape) {
-    filteredData = filtered.Data.filter(record => record.shape === selectedShape);
+if (selectedShape) {
+    filteredData = filteredData.filter(record => record.shape === selectedShape);
 }   
+
+if (selectedState) {
+    filteredData = filteredData.filter(record => record.state === selectedState);
+}
 
 // Display the filtered dataset
 filteredData.forEach((report) => {
