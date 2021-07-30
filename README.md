@@ -1,5 +1,9 @@
 # Javascript-Challenge
 
+
+
+![jschallenge](https://user-images.githubusercontent.com/68763904/127592117-90da9b67-b454-46e8-94b2-04f9fb2bf922.PNG)
+
 This project demonstrates the use of Javascript to create an interactive website, specifically using D3.js to collect HTML form elements in the form of DOMs (Document Object Models) and adding event triggers to elements on the page filter the given dataset based on user entry. The dataset is a sample set of UFO sightings in the U.S. (the first two weeks of January 2010 only).
 
 These are parts of the project;UFO-level-1 and UFO-level-2 (Basic and Advanced).
@@ -44,28 +48,6 @@ Steps &	Requirements:
 
 
 
+![jschallenge2](https://user-images.githubusercontent.com/68763904/127592206-4a5a5dfc-4134-42ed-b1e3-3dddb5d79fef.PNG)
 
 
-## From the grading rubric pdf:
-
-Steps & Requirements:
-
-01	 Rendering Table: Table renders without error on page load.
-
-02	 Table includes all columns.
-
-03   Clears table before rendering again.
-
-04	 Table rerenders with filtered data.
-
-05	 Filtering data: Event handler calls a function to filter the data.
-
-06	 Successfully grabs in the input value.
-
-07	 Correctly uses the filter method to get the new table data based off the given input.
-
-08	 Prevents the page from reloading using D3.
-
-09	 Bonus: Code is able to handle 5 total filters at once.
-
-10	 The multi-filtered data is then rendered back to the table.
